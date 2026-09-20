@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dispatch: privacy policy</title><link rel="stylesheet" href="../style.css"></head>
+<body><main>
+<nav><a href="../">Support</a><a href="./">Privacy policy</a></nav>
+<h1>Privacy policy</h1>
+<p class="lede">Effective 20 September 2026</p>
+
+<div class="card"><p><strong>The short version:</strong> Dispatch has no servers of its own. The developer never receives your token, your messages, your files, or anything else about you. The app talks directly to Devin using your own Devin account.</p></div>
+
+<h2>What Dispatch is</h2>
+<p>Dispatch is an independent iPhone app for Devin, an AI software engineer made by Cognition AI. Dispatch is not affiliated with or endorsed by Cognition AI.</p>
+
+<h2>What stays on your phone</h2>
+<ul>
+<li><strong>Your Devin token(s)</strong>, in the iOS Keychain, readable only by Dispatch on this device and not included in backups.</li>
+<li><strong>Small app state</strong>: which sessions you have already seen, and the last known status of your sessions, so the app can show unread dots and local notifications.</li>
+</ul>
+<p>None of this is sent to the developer.</p>
+
+<h2>What is sent, and to whom</h2>
+<p><strong>Devin (Cognition AI).</strong> To do its job, Dispatch sends requests to <code>api.devin.ai</code> using your token. That includes the messages you write, the photos and files you choose to attach, the sessions you start, and the schedules, knowledge notes, playbooks and secrets you create. Devin is a third-party AI service: what you send is processed by Cognition AI under your own Devin account and <a href="https://cognition.com/legal/privacy-policy">Cognition's privacy policy</a>. Only send what you would enter in Devin itself.</p>
+<p><strong>App updates (Expo).</strong> When it opens, Dispatch asks Expo's update service whether a newer version of the app's code is available. That request contains the app version, the platform, and a random identifier for this installation. It does not contain your token or any Devin data. See <a href="https://expo.dev/privacy">Expo's privacy policy</a>.</p>
+<p><strong>Nobody else.</strong> Dispatch contains no analytics, no advertising, and no tracking, and it does not sell or share data.</p>
+
+<h2>Permissions</h2>
+<ul>
+<li><strong>Photos and camera</strong>: only when you tap “+” to send Devin a picture. Dispatch sees only the items you pick.</li>
+<li><strong>Notifications</strong>: optional and off by default. They are created on your phone; no push server is involved.</li>
+<li><strong>Background App Refresh</strong>: used to check Devin for sessions that finished or need you.</li>
+</ul>
+
+<h2>Deleting your data</h2>
+<p><strong>Settings → Disconnect</strong> removes your token from the phone. Deleting the app removes everything it stored. Sessions and other content live in your Devin account; manage or delete them in Devin.</p>
+
+<h2>Children</h2>
+<p>Dispatch is a tool for software developers and is not directed at children under 13.</p>
+
+<h2>Changes and contact</h2>
+<p>If this policy changes, the new version will be posted here with a new date. Questions: <a href="https://github.com/OfirYC/dispatch-app/issues">open an issue</a>.</p>
+
+<footer>Dispatch · <a href="../">Help and support</a></footer>
+</main></body></html>
